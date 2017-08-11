@@ -8,7 +8,8 @@ echo Deleting desktop icon...
 del HorrorGame1Desktop.bat
 cd %USERPROFILE%/HorrorGame1
 echo Deleting game files...
-rmdir HorrorGame1 /S /Q
+del HorrorGame1.cpp
+del a.exe
 echo Deleting launcher...
 del HorrorGame1Launcher.bat
 cd %USERPROFILE%/Downloads/HorrorGame1-master/HorrorGame1-master
