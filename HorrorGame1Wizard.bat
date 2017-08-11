@@ -14,7 +14,7 @@ move HorrorGame1Launcher.bat %USERPROFILE%/HorrorGame1
 echo Installing uninstaller...
 move HorrorGame1Uninstaller.bat %USERPROFILE%/HorrorGame1
 echo Installing game files...
-move HorrorGame1.cpp %/USERPROFILE%/HorrorGame1
+move HorrorGame1.cpp %USERPROFILE%/HorrorGame1
 pause
 echo Would you like to add a desktop shortcut? [y][n]
 set /p shortcut=
